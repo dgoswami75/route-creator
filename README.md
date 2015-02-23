@@ -1,12 +1,12 @@
-# route-generator
+# route-creator
 Framework agnostic auto generator of routes for node application based on application folder structure. Forces developers to follow a sensible modular structure for their node applications. Compatible with Express, Restify and Hapi (tested these so far).
 
-## Why route-generator
-Route-generator is NOT a framework. Its a utility to help you organize your code better and promote modularization.  
+## Why route-creator
+route-creator is NOT a framework. Its a utility to help you organize your code better and promote modularization.  
 
-Node applications typically have the following components but even the popular frameworks like express, restify, hapi etc. don't provide enough guidance to structure an application. route-generator provides *one* way to structure your applications. I'll add more ways down the road.  
+Node applications typically have the following components but even the popular frameworks like express, restify, hapi etc. don't provide enough guidance to structure an application. route-creator provides *one* way to structure your applications. I'll add more ways down the road.  
 
-The approach that route-generator takes it is pretty simple. You just create your code artifacts as you please following a few simple rules. The route-generator will *generate* the routes and register them with your server. Currently, it generates both GET and POST routes and that should be okay for most applications. I will add a way to specify the method later.  
+The approach that route-creator takes it is pretty simple. You just create your code artifacts as you please following a few simple rules. The route-creator will *generate* the routes and register them with your server. Currently, it generates both GET and POST routes and that should be okay for most applications. I will add a way to specify the method later.  
 # Usage
 1. All modules should have a single folder at their root. That's the `app_modules` folder directly under the application root folder.
 2. All modules deserve their own folders. So, if you're creating a booking module, create a folder **booking** (under the `app_modules` folder, duh). Create a `controllers` folder under **booking**.
@@ -21,7 +21,7 @@ After you create the folder structure and files as above, the app structure will
 <application_root>/app_modules/**booking**/controllers/**delete.js**  
 <application_root>/app_modules/**booking**/controllers/**create.js**
 
-Route-generator frees you up from having to specify routes separately and figures out the route based on the folder names and controller file names. For the above example, the routes created would be:  
+route-creator frees you up from having to specify routes separately and figures out the route based on the folder names and controller file names. For the above example, the routes created would be:  
 **/booking/view  
 /booking/delete  
 /booking/create**  

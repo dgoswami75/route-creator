@@ -12,7 +12,7 @@ The approach that route-creator takes it is pretty simple. You just create your 
 2. All modules deserve their own folders. So, if you're creating a booking module, create a folder **booking** (under the `app_modules` folder, duh). Create a `controllers` folder under **booking**.
 3. Create a separate controller file for each route you want to handle. Eg: under **booking**, say you want create, delete and view routes. So, create 3 files that have the handler function for each of these routes. Name the files according to the functions - **create.js, delete.js, view.js**.
 4. Create a small config object in each file to identify the handler function (since you would probably create some helper functions in that file too) and any arguments for the route. `module.exports` this config object from that controller.
-5. `require` routeRegistrar in your node application (check examples for code samples)  
+5. `require` route-creator in your node application (check examples for code samples)  
 `var routeCreator = require('route-creator');
 routeCreator.createRoutes(server);`  
 

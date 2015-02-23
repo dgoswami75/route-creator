@@ -17,9 +17,9 @@ The approach that route-creator takes it is pretty simple. You just create your 
 routeCreator.createRoutes(server);`  
 
 After you create the folder structure and files as above, the app structure will look something like this:  
-<application_root>/app_modules/**booking**/controllers/**view.js** 
-<application_root>/app_modules/**booking**/controllers/**delete.js**  
-<application_root>/app_modules/**booking**/controllers/**create.js**
+<application_root>/app_modules/**booking**/controllers/**view.js**  
+<application_root>/app_modules/**booking**/controllers/**delete.js**    
+<application_root>/app_modules/**booking**/controllers/**create.js**  
 
 route-creator frees you up from having to specify routes separately and figures out the route based on the folder names and controller file names. For the above example, the routes created would be:  
 **/booking/view  

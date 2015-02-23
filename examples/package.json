@@ -1,0 +1,14 @@
+{
+  "name": "route-creator-example",
+  "version": "1.0.0",
+  "description": "Example for route-creator package.",
+  "main": "index.js",
+  "author": "Dhananjay Goswami",
+  "private": true,
+  "dependencies": {
+    "restify": "~2.8.5",
+    "route-creator": "~1.0.0"
+  },
+  "devDependencies": {
+  }
+}

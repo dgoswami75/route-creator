@@ -1,0 +1,25 @@
+{
+  "name": "route-creator",
+  "version": "1.0.0",
+  "description": "Route generator for node applications to enforce modular structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dgoswami75/route-creator"
+  },
+  "keywords": [
+    "route",
+    "creator",
+    "modularization",
+    "injector"
+  ],
+  "author": "Dhananjay Goswami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgoswami75/route-creator/issues"
+  },
+  "homepage": "https://github.com/dgoswami75/route-creator"
+}

@@ -38,4 +38,3 @@ Check the example to see in action.
 ## Limitations
 - Reads only 1 folder level deep into the app_modules. It processes `controllers` folders that are only 2 levels under `app_modules`. Deeper nesting of modules is not supported currently, but planned.
 - Adds only GET and POST routes for all controllers with no dev options to change this behavior. More flexibility and options for specifying method are in the works.
-- 
